@@ -60,4 +60,4 @@ app.get('/setup', async (req, res) => {
     }
 })
 
-app.listen(PORT, () => console.log(`This is working on :${PORT}`));
+app.listen(PORT, () => console.log(`This is working on port:${PORT}`));
